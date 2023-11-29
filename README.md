@@ -48,24 +48,24 @@ The dataset used for this project is sourced from the [MoH-Malaysia/covid19-publ
 ## Architecture
 
 ### Single-Step Model Architecture
-![model_1_architecture](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/edf0c85c-6a63-495b-8ab0-1542a774ffa7)
+   ![model_1_architecture](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/edf0c85c-6a63-495b-8ab0-1542a774ffa7)
 
 
 ### Multi-Step Model Architecture
-![model_2_architecture](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/90328058-753a-457b-b50b-16c775d47007)
+   ![model_2_architecture](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/90328058-753a-457b-b50b-16c775d47007)
 
 ## Predicted vs. Actual COVID-19 Cases
 
 ### Single-Step Scenario
 
-![single_step_result](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/d77db4f8-3d64-487c-8b82-6d91e88029f2)
+   ![single_step_result](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/d77db4f8-3d64-487c-8b82-6d91e88029f2)
 
 
 In the graph above, the blue line represents the actual daily new COVID-19 cases, while the orange line indicates the predictions made by the single-step LSTM model. The close alignment between the two lines demonstrates the model's accurate predictions.
 
 ### Multi-Step Scenario
 
-![multi_step_result](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/cca80ae5-cb66-4a88-8735-d6d749edb7c7)
+   ![multi_step_result](https://github.com/UmarQayyum16/COVID-19-Prediction-with-LSTM-Malaysia-Case-Study/assets/149918632/cca80ae5-cb66-4a88-8735-d6d749edb7c7)
 
 
 For the multi-step scenario, the blue line represents the actual cases, and the orange line depicts the predictions made by the multi-step LSTM model. The model effectively captures the trend, providing accurate forecasts for the next 30 days.
